@@ -1,0 +1,38 @@
+# Node
+.env
+.env.*
+.local.env
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+env/
+.venv/
+pip-wheel-metadata/
+*.egg-info/
+dist/
+build/
+*.egg
+
+
+# Data, caches, models
+data/
+models/
+.cache/huggingface/
+.huggingface/
+transformers_cache/
+datasets_cache/
+*.ckpt
+*.pt
+*.h5
+*.db
+*.sqlite3
+
+# Secrets / keys
+*.pem
+*.key
+*.crt
+secrets.*
+credentials
